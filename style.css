@@ -1,0 +1,29 @@
+.row, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8 {
+  border:1px solid black;
+  background-color: green;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.margin-left {
+  margin-left: 8.33333%;
+}
+
+.noBorder {
+  border: none;
+}
+
+.noLine {
+  border-top: none;
+  border-bottom: none;
+}
