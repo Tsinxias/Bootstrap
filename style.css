@@ -4,11 +4,6 @@
   margin: 0;
 }
 
-.row {
-  display: flex;
-  text-align: center;
-}
-
 .end {
   display: flex;
   justify-content: flex-end;
