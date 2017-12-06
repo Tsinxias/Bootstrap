@@ -32,15 +32,23 @@
 }
 
 /*menu page*/
-$('#myList a').on('click', function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
 
+.tout {
+  background-color:#A4A4A4 !important;
+}
 
+h1 {
+  color: white;
+}
 
+span .badge {
+  font-size: 1rem;
+  margin-left: 5px;
+}
 
-
+li .bigger {
+  font-size: 1rem;
+}
 
 
 

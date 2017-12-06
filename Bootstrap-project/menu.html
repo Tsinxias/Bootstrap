@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Gaga Menu</title>
@@ -26,42 +27,87 @@
     </nav>
 
     <div class="main">
-      <div class="jumbotron">
-        <h1 class="display-3">Menus</h1>
+      <div class="jumbotron tout">
+        <h1 class="display-3 text-center">Menus</h1>
+        <div class="row">
+          <div class="col-2">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="v-pills-carte-tab" data-toggle="pill" href="#v-pills-carte" role="tab" aria-controls="v-pills-carte" aria-selected="true">A la carte Menu</a>
+              <a class="nav-link" id="v-pills-Menu1-tab" data-toggle="pill" href="#v-pills-Menu1" role="tab" aria-controls="v-pills-Menu1" aria-selected="false">Menu 9.90 €</a>
+              <a class="nav-link" id="v-pills-Menu2-tab" data-toggle="pill" href="#v-pills-Menu2" role="tab" aria-controls="v-pills-Menu2" aria-selected="false">Menu 14.50 €</a>
+              <a class="nav-link" id="v-pills-Menu3-tab" data-toggle="pill" href="#v-pills-Menu3" role="tab" aria-controls="v-pills-Menu3" aria-selected="false">Menu All-In</a>
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-carte" role="tabpanel" aria-labelledby="v-pills-carte-tab">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-primary h4">Burgers</li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Cheese Burger<span class="badge badge-light bigger">6.50 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Bacon Burger<span class="badge badge-light bigger">7.80 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Chicken Burger<span class="badge badge-light bigger">7.80 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Hollywood Burger<span class="badge badge-light bigger">8.50 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Bitchy Burger<span class="badge badge-danger">hot<span class="badge badge-light">8.50 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Burger Burger<span class="badge badge-danger">hot<span class="badge badge-light">8.50 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Geeky Burger<span class="badge badge-light bigger">8.50 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Saucy Burger<span class="badge badge-danger">hot<span class="badge badge-light">9.00 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Double Burger<span class="badge badge-light bigger">9.00 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Veggie Burger<span class="badge badge-success">Veggie<span class="badge badge-light">7.80 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Corn Burger<span class="badge badge-success">Veggie<span class="badge badge-light">8.00 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Tofu Burger<span class="badge badge-success">Veggie<span class="badge badge-light">7.80 €</span></span></li>
 
-        <!-- <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="v-pills-carte-tab" data-toggle="pill" href="#v-pills-carte" role="tab" aria-controls="v-pills-carte" aria-selected="true">A la carte Menu</a>
-          <a class="nav-link" id="v-pills-menu1-tab" data-toggle="pill" href="#v-pills-menu1" role="tab" aria-controls="v-pills-menu1" aria-selected="false">Menu 9.90 €</a>
-          <a class="nav-link" id="v-pills-menu2-tab" data-toggle="pill" href="#v-pills-menu2" role="tab" aria-controls="v-pills-menu2" aria-selected="false">Menu 14.50 €</a>
-          <a class="nav-link" id="v-pills-menu3-tab" data-toggle="pill" href="#v-pills-menu3" role="tab" aria-controls="v-pills-menu3" aria-selected="false">Menu 21.00 €</a>
+                  <li class="list-group-item list-group-item-primary h4">Fries</li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">French Fries<span class="badge badge-light bigger">4.00 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Cheesy Fries<span class="badge badge-light bigger">4.50 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Jalapëno Fries<span class="badge badge-danger">hot<span class="badge badge-light">4.50 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Combo Fries<span class="badge badge-danger">hot<span class="badge badge-light">5.00 €</span></span></li>
+
+                  <li class="list-group-item list-group-item-primary h4">Salads</li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Ceasar Salad<span class="badge badge-light bigger">7.50 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Greak Salad<span class="badge badge-light bigger">7.50 €</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">All-in Salad<span class="badge badge-light bigger">8.00 €</span></li>
+
+                  <li class="list-group-item list-group-item-primary h4">Desserts</li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Ice Cream<span class="badge badge-light bigger">4.50 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Dame Blanche<span class="badge badge-light bigger">5.00 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Banana Split<span class="badge badge-light bigger">5.00 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Chocolate Mousse<span class="badge badge-light bigger">4.50 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Pudding<span class="badge badge-light bigger">4.50 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Fruit Salad<span class="badge badge-light bigger">4.50 €</span></span></li>
+                  <li class="list-group-item d-flex justify-content-between align-item-center">Pie<span class="badge badge-light bigger">5.00 €</span></span></li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="v-pills-Menu1" role="tabpanel" aria-labelledby="v-pills-Menu1-tab">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-primary h4">Menu 9.90 €</li>
+                  <li class="list-group-item">Burger below 8.00 € or Ceasar Salad</li>
+                  <li class="list-group-item">French Fries or Cheesy Fries</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="v-pills-Menu2" role="tabpanel" aria-labelledby="v-pills-Menu2-tab">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-primary h4">Menu 14.50 €</li>
+                  <li class="list-group-item">All Burgers or Salads</li>
+                  <li class="list-group-item">French Fries or Cheesy Fries</li>
+                  <li class="list-group-item">Soda or thee</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="v-pills-Menu3" role="tabpanel" aria-labelledby="v-pills-Menu3-tab">
+                <ul class="list-group">
+                  <li class="list-group-item list-group-item-primary h4">Menu All-In 21.00€</li>
+                  <li class="list-group-item">All Burgers or Salads</li>
+                  <li class="list-group-item">All Fries</li>
+                  <li class="list-group-item">1 Drink offered</li>
+                  <li class="list-group-item">1 Dessert</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-carte" role="tabpanel" aria-labelledby="v-pills-carte-tab">tout</div>
-          <div class="tab-pane fade show" id="v-pills-menu1" role="tabpanel" aria-labelledby="v-pills-menu1-tab">fini</div>
-          <div class="tab-pane fade show" id="v-pills-menu2" role="tabpanel" aria-labelledby="v-pills-menu2-tab">bien</div>
-          <div class="tab-pane fade show" id="v-pills-menu3" role="tabpanel" aria-labelledby="v-pills-menu3-tab">yaaaay</div>
-        </div> -->
-
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-    </li>
-  </ul>
-  <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-  </div>
 
 <script type="text/javascript">
 
-$('#pills-tab a').on('click', function (e) {
+$('#v-pills-tab a').on('click', function (e) {
   e.preventDefault()
   //$(this).tab('show')
   console.log( $(this).tab('show') )
@@ -84,12 +130,10 @@ $('#pills-tab a').on('click', function (e) {
 
 
 <!--menu
-<ul>
-  <li><a href="#" class="h4" data-toggle="collapse" aria-expanded="false">A la carte Menu</a></li>
-  <li><a href="#" class="h5" data-toggle="collapse" aria-expanded="false">Menu 9.90 €</a></li>
-  <li><a href="#" class="h5" data-toggle="collapse" aria-expanded="false">Menu 14.50 €</a></li>
-  <li><a href="#" class="h5" data-toggle="collapse" aria-expanded="false">Menu 21.00 €</a></li>
-</ul>
+<li class="list-group-item list-group-item-primary h4">Desserts</li>
+<li class="list-group-item d-flex justify-content-between align-item-center"><span class="badge badge-secondary">hot<span class="badge badge-light">5.99 €</span></span></li>
+<li class="list-group-item d-flex justify-content-between align-item-center"><span class="badge badge-secondary">hot<span class="badge badge-light">5.99 €</span></span></li>
+
 
 
 
