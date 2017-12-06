@@ -16,16 +16,81 @@
       <div class="container-fluid">
         <a href="#" class="navbar-brand"><img height="80px" src="image/gaga_white.png" alt=""></a>
         <div class="row">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
           <a class="nav-link" href="menu.html">Menu</a>
-          <a class="nav-link" href="#">Pictures</a>
-          <a class="nav-link" href="#">Restaurant</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="picture.html">Pictures</a>
+          <a class="nav-link" href="restaurant.html">Restaurant</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </div>
       </div>
     </nav>
 
-    
+    <div class="main">
+      <div class="jumbotron">
+        <h1 class="display-3">Menus</h1>
+
+        <!-- <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="v-pills-carte-tab" data-toggle="pill" href="#v-pills-carte" role="tab" aria-controls="v-pills-carte" aria-selected="true">A la carte Menu</a>
+          <a class="nav-link" id="v-pills-menu1-tab" data-toggle="pill" href="#v-pills-menu1" role="tab" aria-controls="v-pills-menu1" aria-selected="false">Menu 9.90 €</a>
+          <a class="nav-link" id="v-pills-menu2-tab" data-toggle="pill" href="#v-pills-menu2" role="tab" aria-controls="v-pills-menu2" aria-selected="false">Menu 14.50 €</a>
+          <a class="nav-link" id="v-pills-menu3-tab" data-toggle="pill" href="#v-pills-menu3" role="tab" aria-controls="v-pills-menu3" aria-selected="false">Menu 21.00 €</a>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-carte" role="tabpanel" aria-labelledby="v-pills-carte-tab">tout</div>
+          <div class="tab-pane fade show" id="v-pills-menu1" role="tabpanel" aria-labelledby="v-pills-menu1-tab">fini</div>
+          <div class="tab-pane fade show" id="v-pills-menu2" role="tabpanel" aria-labelledby="v-pills-menu2-tab">bien</div>
+          <div class="tab-pane fade show" id="v-pills-menu3" role="tabpanel" aria-labelledby="v-pills-menu3-tab">yaaaay</div>
+        </div> -->
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+  </div>
+
+<script type="text/javascript">
+
+$('#pills-tab a').on('click', function (e) {
+  e.preventDefault()
+  //$(this).tab('show')
+  console.log( $(this).tab('show') )
+})
+
+</script>
+
+
+
+
+
+      </div>
+    </div>
+
+
+
   </div>
 </body>
 </html>
+
+
+<!--menu
+<ul>
+  <li><a href="#" class="h4" data-toggle="collapse" aria-expanded="false">A la carte Menu</a></li>
+  <li><a href="#" class="h5" data-toggle="collapse" aria-expanded="false">Menu 9.90 €</a></li>
+  <li><a href="#" class="h5" data-toggle="collapse" aria-expanded="false">Menu 14.50 €</a></li>
+  <li><a href="#" class="h5" data-toggle="collapse" aria-expanded="false">Menu 21.00 €</a></li>
+</ul>
+
+
+
+-->
