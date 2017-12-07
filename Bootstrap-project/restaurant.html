@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gaga places</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand"><img height="80px" src="image/gaga_white.png" alt=""></a>
+        <div class="row">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="menu.html">Menu</a>
+          <a class="nav-link" href="gallery.html">Gallery</a>
+          <a class="nav-link" href="restaurant.html">Restaurant</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="jumbotron tout">
+        <h1 class="display-3 text-center white">Our places</h1>
+        <div class="row justify-content-center">
+          <div class="col-2">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active taille" id="v-pills-carte1-tab" data-toggle="pill" href="#v-pills-carte1" role="tab" aria-controls="v-pills-carte1" aria-selected="true">Brussels</a>
+              <a class="nav-link taille" id="v-pills-carte2-tab" data-toggle="pill" href="#v-pills-carte2" role="tab" aria-controls="v-pills-carte2" aria-selected="false">Seattle</a>
+              <a class="nav-link taille" id="v-pills-carte3-tab" data-toggle="pill" href="#v-pills-carte3" role="tab" aria-controls="v-pills-carte3" aria-selected="false">Tokyo</a>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-carte1" role="tabpanel" aria-labelledby="v-pills-carte1-tab">
+                <iframe
+                  width="600"
+                  height="400"
+                  frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAfsUBV893GAmT1CVMAzGePhxHf2hAeBAk
+                    &q=Becode,Brussels" allowfullscreen>
+                </iframe>
+              </div>
+              <div class="tab-pane fade" id="v-pills-carte2" role="tabpanel" aria-labelledby="v-pills-carte2-tab">
+                <iframe
+                  width="600"
+                  height="400"
+                  frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAfsUBV893GAmT1CVMAzGePhxHf2hAeBAk
+                    &q=Space+Needle,Seattle+WA" allowfullscreen>
+                </iframe>
+              </div>
+              <div class="tab-pane fade" id="v-pills-carte3" role="tabpanel" aria-labelledby="v-pills-carte3-tab">
+                <iframe
+                  width="600"
+                  height="400"
+                  frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAfsUBV893GAmT1CVMAzGePhxHf2hAeBAk
+                    &q=Sekine+Shrine,Tokyo" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active white" id="v-pills-carte1" role="tabpanel" aria-labelledby="v-pills-carte1-tab">
+                <h3>Open hours :</h3>
+                <hr>
+                <p>Monday: 11.30 - 22.00</p>
+                <p>Tuesday: 11.30 - 22.00</p>
+                <p>Wednesday: 11.30 - 22.00</p>
+                <p>Thursday: 11.30 - 23.00</p>
+                <p>Friday: 11.30 - 23.00</p>
+                <p>Saturday: 11.30 - 23.00</p>
+                <p>Sunday: Closed</p>
+              </div>
+              <div class="tab-pane fade white" id="v-pills-carte2" role="tabpanel" aria-labelledby="v-pills-carte2-tab">
+                <h3>Open hours :</h3>
+                <hr>
+                <p>Monday: 11.30 - 22.00</p>
+                <p>Tuesday: 11.30 - 22.00</p>
+                <p>Wednesday: 11.30 - 22.00</p>
+                <p>Thursday: 11.30 - 23.00</p>
+                <p>Friday: 11.30 - 23.00</p>
+                <p>Saturday: 11.30 - 23.00</p>
+                <p>Sunday: Closed</p>
+              </div>
+              <div class="tab-pane fade white" id="v-pills-carte3" role="tabpanel" aria-labelledby="v-pills-carte3-tab">
+                <h3>Open hours :</h3>
+                <hr>
+                <p>Monday: 11.30 - 22.00</p>
+                <p>Tuesday: 11.30 - 22.00</p>
+                <p>Wednesday: 11.30 - 22.00</p>
+                <p>Thursday: 11.30 - 23.00</p>
+                <p>Friday: 11.30 - 23.00</p>
+                <p>Saturday: 11.30 - 23.00</p>
+                <p>Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center">
+        &#169; Gaga 2017
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

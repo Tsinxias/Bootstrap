@@ -64,11 +64,17 @@ li .bigger {
   padding-top: 90px;
 }
 
+.white {
+  color: white;
+}
 
+.big {
+  font-size: 3.5em;
+}
 
-
-
-
+.taille {
+  font-size: 1.5em;
+}
 
 
 
