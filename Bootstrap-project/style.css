@@ -50,9 +50,19 @@ li .bigger {
   font-size: 1rem;
 }
 
+.col-5 img {
+  padding: 20px 0;
+}
 
+.black a{
+  color: black;
+  padding-left: 15px;
+  padding-top: 20px;
+}
 
-
+.bas {
+  padding-top: 90px;
+}
 
 
 
