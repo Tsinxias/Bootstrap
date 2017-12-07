@@ -30,7 +30,7 @@
 
 .discount {
   background: linear-gradient(to bottom, rgba(55,62,70,.5),rgba(55,62,70,.5)), url("image/facadeNewNew.jpg");
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
