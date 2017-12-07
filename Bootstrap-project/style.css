@@ -1,3 +1,11 @@
+.amatic {
+  font-family: 'Amatic SC', cursive;
+}
+
+.pontano {
+  font-family: 'Pontano Sans', sans-serif;
+}
+
 .row a {
   color: white;
 }
@@ -14,14 +22,14 @@
 }
 
 .upcoming {
-  background: linear-gradient(to bottom, rgba(55,62,70,.9),rgba(55,62,70,.85)), url("image/Upcoming-Events.jpg");
+  background: linear-gradient(to bottom, rgba(55,62,70,.5),rgba(55,62,70,.5)), url("image/Upcoming-Events.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .discount {
-  background: linear-gradient(to bottom, rgba(55,62,70,.9),rgba(55,62,70,.85)), url("image/discount.jpg");
+  background: linear-gradient(to bottom, rgba(55,62,70,.5),rgba(55,62,70,.5)), url("image/facadeNewNew.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +77,11 @@ li .bigger {
 }
 
 .big {
-  font-size: 3.5em;
+  font-size: 4em;
+}
+
+.jumbotron .big {
+  font-size: 2.5em;
 }
 
 .taille {
@@ -84,16 +96,26 @@ span {
   margin-left: 15px;
 }
 
+.jumbotron form {
+  width: 60%;
+  margin: auto;
+}
 
+.image {
+  background-image: url("image/food.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.space {
+  padding-top: 100px;
+}
 
-
-
-
-
-
-
-
-
-
-qsd
+.home {
+  background-image: url("image/home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
