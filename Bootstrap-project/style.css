@@ -119,3 +119,17 @@ span {
   background-size: cover;
   height: 750px;
 }
+
+.alpaga {
+  background-image: url("image/alpaga.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#image {
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 15px;
+}
