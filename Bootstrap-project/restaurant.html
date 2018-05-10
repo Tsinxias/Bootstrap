@@ -16,9 +16,9 @@
   <div class="container-fluid">
     <img id="image" src="image/pedobear.png"/>
     <nav class="navbar fixed-top navbar-dark bg-dark">
-      <div class="container-fluid">
+      <div class="container-fluid justifyCenter">
         <a href="index.html" class="navbar-brand"><img height="80px" src="image/gaga_white.png" alt=""></a>
-        <div class="row">
+        <div class="row justify-content-center">
           <a class="nav-link" href="index.html">Home</a>
           <a class="nav-link" href="menu.html">Menu</a>
           <a class="nav-link" href="gallery.html">Gallery</a>
@@ -30,22 +30,20 @@
 
     <div class="main">
       <div class="jumbotron tout">
-        <h1 class="display-3 text-center white">Our places</h1>
-        <div class="row justify-content-center">
-          <div class="col-2">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <h1 class="titleResto display-3 text-center white">Our places</h1>
+        <div id="restoInfo" class="row justify-content-center">
+          <div id="removeRestoCol1" class="col-2">
+            <div id="removeRestoFlex" class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
               <a class="nav-link active taille" id="v-pills-carte1-tab" data-toggle="pill" href="#v-pills-carte1" role="tab" aria-controls="v-pills-carte1" aria-selected="true">Brussels</a>
               <a class="nav-link taille" id="v-pills-carte2-tab" data-toggle="pill" href="#v-pills-carte2" role="tab" aria-controls="v-pills-carte2" aria-selected="false">Seattle</a>
               <a class="nav-link taille" id="v-pills-carte3-tab" data-toggle="pill" href="#v-pills-carte3" role="tab" aria-controls="v-pills-carte3" aria-selected="false">Tokyo</a>
             </div>
           </div>
 
-          <div class="col-6">
+          <div id="removeRestoCol2" class="col-6">
             <div class="tab-content" id="v-pills-tabContent">
               <div class="tab-pane fade show active" id="v-pills-carte1" role="tabpanel" aria-labelledby="v-pills-carte1-tab">
                 <iframe
-                  width="600"
-                  height="400"
                   frameborder="0" style="border:0"
                   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAfsUBV893GAmT1CVMAzGePhxHf2hAeBAk
                     &q=Becode,Brussels" allowfullscreen>
@@ -53,8 +51,6 @@
               </div>
               <div class="tab-pane fade" id="v-pills-carte2" role="tabpanel" aria-labelledby="v-pills-carte2-tab">
                 <iframe
-                  width="600"
-                  height="400"
                   frameborder="0" style="border:0"
                   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAfsUBV893GAmT1CVMAzGePhxHf2hAeBAk
                     &q=Space+Needle,Seattle+WA" allowfullscreen>
@@ -62,8 +58,6 @@
               </div>
               <div class="tab-pane fade" id="v-pills-carte3" role="tabpanel" aria-labelledby="v-pills-carte3-tab">
                 <iframe
-                  width="600"
-                  height="400"
                   frameborder="0" style="border:0"
                   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAfsUBV893GAmT1CVMAzGePhxHf2hAeBAk
                     &q=Sekine+Shrine,Tokyo" allowfullscreen>
@@ -72,40 +66,60 @@
             </div>
           </div>
 
-          <div class="col-2 pontano">
+          <div id="removeRestoCol3" class="col-2 pontano">
             <div class="tab-content" id="v-pills-tabContent">
               <div class="tab-pane fade show active white" id="v-pills-carte1" role="tabpanel" aria-labelledby="v-pills-carte1-tab">
-                <h3>Open hours :</h3>
-                <hr>
-                <p>Monday: 11.30 - 22.00</p>
-                <p>Tuesday: 11.30 - 22.00</p>
-                <p>Wednesday: 11.30 - 22.00</p>
-                <p>Thursday: 11.30 - 23.00</p>
-                <p>Friday: 11.30 - 23.00</p>
-                <p>Saturday: 11.30 - 23.00</p>
-                <p>Sunday: Closed</p>
+                <h3 class="text-center">Open hours :</h3>
+                <hr class="text-center">
+                <div class="cut2">
+                  <div class="addCol">
+                    <p>Monday: 11.30 - 22.00</p>
+                    <p>Tuesday: 11.30 - 22.00</p>
+                    <p>Wednesday: 11.30 - 22.00</p>
+                    <p>Thursday: 11.30 - 23.00</p>
+                  </div>
+                  <div class="addCol">
+                    <p>Friday: 11.30 - 23.00</p>
+                    <p>Saturday: 11.30 - 23.00</p>
+                    <p>Sunday: Closed</p>
+                  </div>
+                </div>
+                
               </div>
               <div class="tab-pane fade white" id="v-pills-carte2" role="tabpanel" aria-labelledby="v-pills-carte2-tab">
-                <h3>Open hours :</h3>
-                <hr>
-                <p>Monday: 11.30 - 22.00</p>
-                <p>Tuesday: 11.30 - 22.00</p>
-                <p>Wednesday: 11.30 - 22.00</p>
-                <p>Thursday: 11.30 - 23.00</p>
-                <p>Friday: 11.30 - 23.00</p>
-                <p>Saturday: 11.30 - 23.00</p>
-                <p>Sunday: Closed</p>
+                <h3 class="text-center">Open hours :</h3>
+                <hr class="text-center">
+                <div class="cut2">
+                  <div class="addCol">
+                    <p>Monday: 11.30 - 22.00</p>
+                    <p>Tuesday: 11.30 - 22.00</p>
+                    <p>Wednesday: 11.30 - 22.00</p>
+                    <p>Thursday: 11.30 - 23.00</p>
+                  </div>
+                  <div class="addCol">
+                    <p>Friday: 11.30 - 23.00</p>
+                    <p>Saturday: 11.30 - 23.00</p>
+                    <p>Sunday: Closed</p>
+                  </div>
+                </div>
+               
               </div>
               <div class="tab-pane fade white" id="v-pills-carte3" role="tabpanel" aria-labelledby="v-pills-carte3-tab">
-                <h3>Open hours :</h3>
-                <hr>
-                <p>Monday: 11.30 - 22.00</p>
-                <p>Tuesday: 11.30 - 22.00</p>
-                <p>Wednesday: 11.30 - 22.00</p>
-                <p>Thursday: 11.30 - 23.00</p>
-                <p>Friday: 11.30 - 23.00</p>
-                <p>Saturday: 11.30 - 23.00</p>
-                <p>Sunday: Closed</p>
+                <h3 class="text-center">Open hours :</h3>
+                <hr class="text-center">
+                <div class="cut2">
+                  <div class="addCol">
+                    <p>Monday: 11.30 - 22.00</p>
+                    <p>Tuesday: 11.30 - 22.00</p>
+                    <p>Wednesday: 11.30 - 22.00</p>
+                    <p>Thursday: 11.30 - 23.00</p>
+                  </div>
+                  <div class="addCol">
+                    <p>Friday: 11.30 - 23.00</p>
+                    <p>Saturday: 11.30 - 23.00</p>
+                    <p>Sunday: Closed</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

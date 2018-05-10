@@ -76,10 +76,18 @@ footer {
 
 .home {
   background-image: url("image/home.jpg");
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   height: 95vh;
+}
+
+.size5 {
+  font-size: 5vh;
+}
+
+.size2 {
+  font-size: 2.5vh;
 }
 
 
@@ -113,6 +121,15 @@ li .bigger {
   height: 100%;
 }
 
+.alpaga img {
+  height: 35vh;
+}
+
+.alpaga img:hover {
+  transform: scale(1.3) perspective(1px)
+
+}
+
 
 /*--------------restaurant page------------------*/
 
@@ -120,6 +137,14 @@ li .bigger {
   font-size: 3.5vh;
 }
 
+iframe {
+  height: 50vh;
+  width: 40vw;
+}
+
+.addCol {
+  width: 100%;
+}
 
 /*---------------contact page--------------------*/
 
@@ -141,4 +166,78 @@ i {
 
 .space {
   padding-top: 15vh;
+}
+
+/*-----------media queries--------------*/
+
+@media screen and (max-width: 1400px) {
+  /*restaurant page*/
+  iframe {
+    height: 50vh;
+    width: 90vw;
+  }
+
+
+  /*gallery page*/
+  .alpaga img {
+    height: 28vh;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .home h1 {
+    font-size: 10vh;
+  }
+
+  .jumbotron .big {
+    font-size: 4vh;
+  }
+
+  /*gallery page*/
+  .alpaga img {
+    height: 23vh;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .card-body {
+    height: 35vh;
+  }
+
+  .home {
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+  }
+
+  /*gallery page*/
+  .alpaga img {
+    height: 30vh;
+    padding: 2vh 0;
+  }
+
+  .alpaga {
+    height: 140vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main {
+    padding-top: 30vh;
+  }
+  .home {
+    height: 180vh;
+  }
+  .taille {
+    font-size: 2vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main {
+    padding-top: 30vh;
+  }
+  .home {
+    height: 180vh;
+  }
 }
