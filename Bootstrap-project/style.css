@@ -1,3 +1,5 @@
+/*----------multi-page------------*/
+
 .amatic {
   font-family: 'Amatic SC', cursive;
 }
@@ -10,11 +12,53 @@
   color: white;
 }
 
+.row a:hover {
+  color: grey;
+}
+
 .main {
   padding-top: 10%;
   width: 90%;
   margin: auto;
 }
+
+.tout {
+  background-color:#A4A4A4 !important;
+}
+
+h1 {
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.big {
+  font-size: 4em;
+}
+
+.jumbotron .big {
+  font-size: 2.5em;
+}
+
+span {
+  margin-left: 15px;
+}
+
+#image {
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 15px;
+}
+
+footer {
+  margin-bottom: 1vh;
+}
+
+
+/*-------------index page--------------*/
 
 .card {
   width: 40%;
@@ -39,15 +83,16 @@
   font-size: 1.5em;
 }
 
-/*menu page*/
-
-.tout {
-  background-color:#A4A4A4 !important;
+.home {
+  background-image: url("image/home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
 }
 
-h1 {
-  color: white;
-}
+
+/*--------------menu page-----------------*/
 
 span .badge {
   font-size: 1rem;
@@ -58,6 +103,8 @@ li .bigger {
   font-size: 1rem;
 }
 
+
+/*--------------gallery page-------------------*/
 .col-5 img {
   padding: 20px 0;
 }
@@ -68,32 +115,25 @@ li .bigger {
   padding-top: 20px;
 }
 
-.bas {
-  padding-top: 90px;
+.alpaga {
+  background-image: url("image/alpaga.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.white {
-  color: white;
-}
 
-.big {
-  font-size: 4em;
-}
-
-.jumbotron .big {
-  font-size: 2.5em;
-}
+/*--------------restaurant page------------------*/
 
 .taille {
   font-size: 1.5em;
 }
 
+
+/*---------------contact page--------------------*/
+
 i {
   padding-right: 10px;
-}
-
-span {
-  margin-left: 15px;
 }
 
 .jumbotron form {
@@ -110,26 +150,4 @@ span {
 
 .space {
   padding-top: 100px;
-}
-
-.home {
-  background-image: url("image/home.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 750px;
-}
-
-.alpaga {
-  background-image: url("image/alpaga.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#image {
-  height: 50px;
-  z-index: 1;
-  position: absolute;
-  margin-left: 15px;
 }
