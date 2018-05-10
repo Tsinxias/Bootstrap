@@ -3,7 +3,7 @@
 First Bootstrap Project @BeCode  
 **Link to bootstrap project:** https://tsinxias.github.io/Bootstrap/Bootstrap-project/index.html  
   
-# First website using Boostrap  
+## First website using Boostrap  
 
 Create a website for a restaurant.  
 The food type is free to choose.  
@@ -18,7 +18,7 @@ The food type is free to choose.
 - Font Awesone Icons
 - Google API  
   
-#### Requirements
+### Requirements
 - 5 pages website with a navbar (Homepage, Menu, Gallery, Restaurants, Contact).  
   
 **Homepage** : Need a Jumbotron with 2 card  
