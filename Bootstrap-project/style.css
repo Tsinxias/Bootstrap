@@ -200,6 +200,7 @@ i {
 }
 
 @media screen and (max-width: 970px) {
+  /*homepage*/
   .card-body {
     height: 35vh;
   }
@@ -208,6 +209,14 @@ i {
     background-position: center;
     background-size: cover;
     height: 150vh;
+  }
+
+  .home h1 {
+    font-size: 7vh;
+  }
+
+  .home .big {
+    font-size: 3vh;
   }
 
   /*gallery page*/
@@ -222,14 +231,26 @@ i {
 }
 
 @media screen and (max-width: 650px) {
+  /*multipage*/
   .main {
     padding-top: 30vh;
   }
   .home {
     height: 180vh;
   }
+  .home h1 {
+    font-size: 5vh;
+  }
+  .home .big {
+    font-size: 2.5vh;
+  }
   .taille {
     font-size: 2vh;
+  }
+
+  /*contact page*/
+  .image .lead {
+    font-size: 2.5vh;
   }
 }
 

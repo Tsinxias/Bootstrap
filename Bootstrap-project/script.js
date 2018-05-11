@@ -66,18 +66,32 @@ $(window).on('load resize', function() {
     }
 
     if(width <= 660) {
+        //restaurant page
         $('.justifyCenter').addClass('justify-content-center');
         $('.titleResto').removeClass('display-3');
         $('.titleResto').addClass('display-4');
+
+        // contact page
+        $('#contactTitle').removeClass('display-3');
+        $('#contactTitle').addClass('size5');
     } else {
+        // restaurant page
         $('.justifyCenter').removeClass('justify-content-center');
+        $('.titleResto').removeClass('size5');
+        $('.titleResto').addClass('display-3');
+        
+        // contact page
+        $('#contactTitle').addClass('display-3');
+        $('#contactTitle').removeClass('display-4');
     }
 
     if(width <= 450) {
+        // homepage
         $('.card-title').removeClass('display-4');
         $('.card-title').addClass('size5');
         $('.card-text').addClass('size2');
     } else {
+        // homepage
         $('.card-title').addClass('display-4');
         $('.card-title').removeClass('size5');
         $('.card-text').removeClass('size2');
