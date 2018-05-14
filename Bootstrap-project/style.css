@@ -57,15 +57,15 @@ footer {
 }
 
 .upcoming {
-  background: linear-gradient(to bottom, rgba(55,62,70,.5),rgba(55,62,70,.5)), url("image/Upcoming-Events.jpg");
+  background: linear-gradient(to bottom, rgba(55,62,70,.8),rgba(55,62,70,.8)), url("image/Events.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .discount {
-  background: linear-gradient(to bottom, rgba(55,62,70,.5),rgba(55,62,70,.5)), url("image/facadeNewNew.jpg");
-  background-position: top;
+  background: linear-gradient(to bottom, rgba(55,62,70,.8),rgba(55,62,70,.8)), url("image/offers.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -79,7 +79,7 @@ footer {
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 95vh;
+  height: 105vh;
 }
 
 .size5 {
@@ -123,11 +123,6 @@ li .bigger {
 
 .alpaga img {
   height: 35vh;
-}
-
-.alpaga img:hover {
-  transform: scale(1.3) perspective(1px)
-
 }
 
 
